@@ -27,7 +27,15 @@ $ brew cask install java11
 $ export JAVA_HOME=`/usr/libexec/java_home -v 11`
 ```
 
-* sbtインストール
+* mavenをインストール
 ```
 $ brew install maven
+```
+* mavenでプロジェクトを作成
+```
+mvn archetype:generate \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false \
+  -DgroupId=game-of-life \
+  -DartifactId=game-of-life
 ```
