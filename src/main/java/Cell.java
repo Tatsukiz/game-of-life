@@ -1,3 +1,4 @@
+// セル
 public class Cell {
 
     // 生死の状態

@@ -1,3 +1,4 @@
+// 盤面
 public class Board {
 
     // 横幅
